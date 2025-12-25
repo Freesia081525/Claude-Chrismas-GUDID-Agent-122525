@@ -92,7 +92,7 @@ class Agent:
         self.name = name
         self.config = config
         self.llm_provider = config.get('llm_provider', 'openai')
-        self.model = config.get('model', 'gpt-3.5-turbo')
+        self.model = config.get('model', 'gpt-4o-mini')
         self.system_prompt = config.get('system_prompt', '')
         self.capabilities = config.get('capabilities', [])
         
